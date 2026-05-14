@@ -4,7 +4,7 @@ An AI-powered web application that summarizes lengthy news articles into concise
 
 ## 🔗 Project Links
 
-🌐 Live Website: https://your-app-name.onrender.com
+🌐 Live Website: https://intelligent-news-summarizer.onrender.com
 
 📂 GitHub Repository: https://github.com/ysharma-png/Intelligent-News-Summarization-Application.git
 ---
