@@ -52,7 +52,7 @@ Since this is a Flask backend app, deploy it on Render (not GitHub Pages).
 5. Add environment variable:
    - `OPENAI_API_KEY=your_key_here`
 6. Deploy and copy the generated Render URL.
-7. Replace `https://your-app-name.onrender.com` above with your actual live link.
+7. Live link is: `https://intelligent-news-summarizer.onrender.com`
 
 ---
 
