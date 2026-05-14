@@ -45,13 +45,10 @@ An AI-powered web application that summarizes lengthy news articles into concise
 
 Since this is a Flask backend app, deploy it on Render (not GitHub Pages).
 
-1. Push your latest code to GitHub.
-2. Go to Render dashboard and create a new **Web Service**.
-3. Connect this GitHub repository.
-4. Set:
-   - **Runtime:** Python
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `gunicorn app:app`
+1. Push your latest code to GitHub (including `render.yaml`).
+2. Go to Render dashboard and create a new service using **Blueprint**.
+3. Select this GitHub repository.
+4. Render auto-loads settings from `render.yaml`.
 5. Add environment variable:
    - `OPENAI_API_KEY=your_key_here`
 6. Deploy and copy the generated Render URL.

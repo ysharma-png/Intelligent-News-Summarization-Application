@@ -4,3 +4,4 @@ azure-core
 python-dotenv
 deep-translator
 gunicorn
+openai==0.28.1
